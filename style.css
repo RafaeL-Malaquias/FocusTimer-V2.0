@@ -52,6 +52,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 
+    /* */
     display: grid;
     height: 100vh;
     place-content: center;
@@ -74,17 +75,11 @@ body{
 #controls {
     margin-top: 1.6rem;
     padding: 1.2rem 3rem;
-    gap: 1.6rem;
+    gap: 2.3rem;
 
-    background-color: var(--controils-bg-color);
-    border-radius: 999rem;
 }
 
 button {
-    background-color: transparent;
-    border: 0;
-    color: var(--primary-color);
-
     cursor: pointer;
     font-size: 6.4rem;
 }
@@ -97,9 +92,6 @@ button {
 /* running stado da plicação quando estiver rodando*/
 
 /* controls */
-.running .ph-play-circle,
-.running .ph-timer,
-.music-on .ph-speaker-none,
 
 
 
