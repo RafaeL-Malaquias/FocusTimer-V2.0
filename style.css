@@ -7,10 +7,12 @@
 :root {
     --hue: 194;
     --bg-color: hsl(var(--hue), 5%, 7%);
+    --bg-icon-color: #E1E1E6;
     --text-color: hsl(var(--hue), 40% , 98%);
     --primary-color: hsl(var(--hue), 100%, 63%);
     --controils-bg-color: hsl(var(--hue), 0%, 14%);
     --button-secondary: hsl(var(--hue), 40% , 98%);
+    --button-hover: #02799D;
 
     font-size: clamp (40%, 1% + 2vw, (62.5%));
 }
@@ -80,13 +82,12 @@ body{
 }
 
 button {
-    cursor: pointer;
+    background-color: transparent;
+    border:  none;
     font-size: 6.4rem;
+    cursor: pointer;
 }
 
-.secondery {
-    color: var(--button-secondary);
-}
 
 
 /* running stado da plicação quando estiver rodando*/
@@ -97,16 +98,28 @@ button {
 
 
 /**/
-.content {
-    margin-top: 2rem;
+#content {
+    display: flex;
+    gap: 12rem;
 }
 .content-icons{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    border: 1px solid red;
+    gap: 2.2rem;
 }
 
-.content-icons img {
-    width: 48px;
+.content-icons .card-icon {
+    display: flex;
+    justify-content: center;
+    width: 138px;
+    height: 152px ;
+    background-color: var(--bg-icon-color);
+    border-radius: 24px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.content-icons .card-icon:hover{
+        background-color: var(--button-hover);
 }
