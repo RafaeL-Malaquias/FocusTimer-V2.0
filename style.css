@@ -73,7 +73,7 @@ body{
 
 #controls {
     margin-top: 1.6rem;
-    padding: 2.2rem 4rem;
+    padding: 1.2rem 3rem;
     gap: 1.6rem;
 
     background-color: var(--controils-bg-color);
@@ -110,7 +110,6 @@ html:not(.music-on) .ph-speaker-high  {
 
 /**/
 .content {
-    display: flex;
 }
 .content-icons{
     display: grid;
