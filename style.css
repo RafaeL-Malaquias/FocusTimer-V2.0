@@ -110,6 +110,7 @@ html:not(.music-on) .ph-speaker-high  {
 
 /**/
 .content {
+    margin-top: 2rem;
 }
 .content-icons{
     display: grid;
