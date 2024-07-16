@@ -12,7 +12,7 @@
     --primary-color: hsl(var(--hue), 100%, 63%);
     --controils-bg-color: hsl(var(--hue), 0%, 14%);
     --button-secondary: hsl(var(--hue), 40% , 98%);
-    --button-hover: #02799D;
+    --button-hover: #00c3ff;
 
     font-size: clamp (40%, 1% + 2vw, (62.5%));
 }
@@ -36,6 +36,10 @@ html:not(.light) .ph-moon {
     line-height: 0;
 
     color: var(--text-color);
+    transition: all 0.5s;
+}
+#toggle-mode:hover {
+    color: var(--button-hover)
 }
 
 .sr-only{
@@ -86,6 +90,12 @@ button {
     border:  none;
     font-size: 6.4rem;
     cursor: pointer;
+}
+button.ph {
+    color: var(--text-color);
+}
+button.ph:hover {
+    color: var(--button-hover);
 }
 
 
