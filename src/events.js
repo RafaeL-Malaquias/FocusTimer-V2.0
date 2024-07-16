@@ -2,7 +2,11 @@ import { controls } from "./elements.js";
 
 export function registerControls() {
     controls.addEventListener('click', (event) => {
-        alert('ho')
-        console.log(event.target)
+      const action = event.target.dataset.action
+
+        if(action === undefined){
+            return
+        }
+        console.log(action)
     })
 }

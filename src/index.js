@@ -5,4 +5,6 @@ export function start(minutes, seconds){
     state.minutes
     state.seconds
     console.log(minutes,seconds)
+
+    events.registerControls()
 }
