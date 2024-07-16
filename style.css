@@ -92,10 +92,19 @@ button {
 
 /* running stado da plicação quando estiver rodando*/
 
+.running .ph-play-circle {
+    display: none;
+}
+html:not(.running) .ph-pause-circle{
+    display:none
+}
+
+
+
+
+
+
 /* controls */
-
-
-
 
 /**/
 #content {
@@ -125,4 +134,11 @@ button {
 }
 .card-icon img:hover{
     color: red;
+}
+
+
+/* media */
+
+@media () {
+    
 }
