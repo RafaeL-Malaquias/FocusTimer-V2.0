@@ -92,9 +92,7 @@ button {
 
 /* running stado da plicação quando estiver rodando*/
 
-.running .ph-play-circle {
-    display: none;
-}
+.running .ph-play-circle,
 html:not(.running) .ph-pause-circle{
     display:none
 }
