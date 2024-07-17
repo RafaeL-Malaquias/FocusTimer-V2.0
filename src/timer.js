@@ -10,7 +10,6 @@ export function updateDisplay(minutes, seconds){
     el.seconds.textContent = String(seconds).padStart(2, '0')
 }
 
-
 /*   */
 export function countdown(){
     if(!state.isRunning){
@@ -31,9 +30,6 @@ export function countdown(){
         reset()
         return
     }
-
-
-
 
     updateDisplay(minutes, seconds)
     setTimeout( () => countdown(), 1000)

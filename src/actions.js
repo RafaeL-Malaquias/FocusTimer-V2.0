@@ -5,9 +5,7 @@ import * as el from './elements.js'
 export function toggleRunning(){
      state.isRunning = document.documentElement.classList.toggle('running')
 
-
      timer.countdown()
-
      console.log('toggle Running')
 }
 
