@@ -18,16 +18,26 @@ export function reset(){
 }
 
 export function turnUp(){
+    if(state.isRunning) {
+        state.isRunning = false
+        state.isRunning = document.documentElement.classList.remove('running')  
+    }
     state.minutes += 5   
-   timer.updateDisplay()
+    if(state.minutes > 60) {
+        state.minutes = 60
+    }
+    timer.updateDisplay()
+
 }
 
 export function turnDown(){
     if(state.minutes >= 5){
         state.minutes -= 5
+
     } else {
         state.minutes = 0;
         state.seconds = 0
+
     }
     timer.updateDisplay()
 }
