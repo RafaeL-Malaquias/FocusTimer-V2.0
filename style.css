@@ -12,7 +12,7 @@
     --primary-color: hsl(var(--hue), 100%, 63%);
     --controils-bg-color: hsl(var(--hue), 0%, 14%);
     --button-secondary: hsl(var(--hue), 40% , 98%);
-    --button-hover: #00c3ff;
+    --button-hover: #02c4ff;
 
     font-size: clamp (40%, 1% + 2vw, (62.5%));
 }
@@ -103,8 +103,7 @@ button.ph:hover {
 /* running stado da plicação quando estiver rodando*/
 
 .running .ph-play-circle,
-html:not(.running) .ph-pause-circle,
-html:not(.running) .ph-stop-circle{
+html:not(.running) .ph-pause-circle{
     display:none
 }
 
