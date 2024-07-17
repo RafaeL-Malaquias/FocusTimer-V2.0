@@ -20,12 +20,11 @@ export function reset(){
 export function turnUp(){
     if(state.isRunning) {
         state.isRunning = false
-        state.isRunning = document.documentElement.classList.remove('running')  
+         document.documentElement.classList.remove('running')
     }
-    state.minutes += 5   
-    if(state.minutes > 60) {
-        state.minutes = 60
-    }
+
+      /* operadr ternario */
+    state.minutes = (state.minutes + 5 > 60) ? 60 :  state.minutes + 5;
     timer.updateDisplay()
 
 }
