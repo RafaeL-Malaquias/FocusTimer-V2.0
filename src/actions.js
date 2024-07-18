@@ -47,7 +47,3 @@ export function turnDown(){
     timer.updateDisplay()
     sounds.buttonPressAudio.play()
 }
-
-export function playFlorestaAudio(){
-    sounds.florerestaAudio.play()
-}
