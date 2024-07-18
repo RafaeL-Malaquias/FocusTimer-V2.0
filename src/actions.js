@@ -9,6 +9,7 @@ export function toggleRunning(){
      timer.countdown()
      console.log('toggle Running')
      
+     
      sounds.buttonPressAudio.play()
 }
 
@@ -47,7 +48,6 @@ export function turnDown(){
     sounds.buttonPressAudio.play()
 }
 
-
-export function playTreeAudio(){
-    sounds.treeAudio.play()
+export function playFlorestaAudio(){
+    sounds.florerestaAudio.play()
 }
