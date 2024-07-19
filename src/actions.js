@@ -49,5 +49,6 @@ export function turnDown(){
 }
 
 export function forestAudio(){
-    sounds.forestAudio.play()
+   sounds.forestAudio.play()
+   sounds.forestAudio.loop = true
 }
