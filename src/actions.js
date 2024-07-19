@@ -47,3 +47,7 @@ export function turnDown(){
     timer.updateDisplay()
     sounds.buttonPressAudio.play()
 }
+
+export function forestAudio(){
+    sounds.forestAudio.play()
+}
