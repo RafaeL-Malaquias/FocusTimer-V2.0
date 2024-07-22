@@ -11,14 +11,15 @@
     <script type="module" src="./src/main.js" defer></script>
 </head>
 <body>
-<div id="content">
-    <div id="app">
+    <div class="box-toggle-mode">
         <button id="toggle-mode">
             <span class="sr-only">Light Mode Ativado</span>
             <i class="ph-bold ph-sun"></i>
             <i class="ph-bold ph-moon"></i>
         </button>
-        
+    </div>
+<div id="content">
+    <div id="app">
         <section id="timer" class="flex">
             <span id="minutes">25</span>
             <span>:</span>
@@ -59,7 +60,7 @@
     <div class="content-icons">
         <div class="card-icon">
             <button
-              id="florestaAudio">
+              id="florestaAudio" class="btnON">
                 <img src="assests/tree.svg" alt="">
             </button>
         </div>

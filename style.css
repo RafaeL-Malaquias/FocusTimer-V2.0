@@ -29,14 +29,19 @@ html:not(.light) .ph-moon {
 }
 
 #toggle-mode {
+    font-size: 3.2rem;
+    line-height: 0;
     position: absolute;
     right: 3.2rem;
     top: 3.2rem;
-    font-size: 3.2rem;
-    line-height: 0;
 
     color: var(--text-color);
     transition: all 0.5s;
+}
+#toggle-mode button {
+    color: #02c4ff;
+    position: absolute;
+    right: 0;
 }
 #toggle-mode:hover {
     color: var(--button-hover)
@@ -73,7 +78,7 @@ body{
 }
 
 #timer {
-   font-size: 12rem;
+    font-size: 12rem;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -96,6 +101,10 @@ button.ph {
 }
 button.ph:hover {
     color: var(--button-hover);
+}
+.btnON {
+    background-color: #02c4ff;
+    border-radius: 24px;
 }
 
 
@@ -129,12 +138,14 @@ html:not(.running) .ph-pause-circle{
 .content-icons .card-icon {
     display: flex;
     justify-content: center;
-    width: 138px;
-    height: 152px ;
     background-color: var(--bg-icon-color);
     border-radius: 24px;
     transition: all 0.5s;
     cursor: pointer;
+}
+.content-icons .card-icon button {
+    width: 138px;
+    height: 152px ;
 }
 
 .content-icons .card-icon:hover{
@@ -147,6 +158,29 @@ html:not(.running) .ph-pause-circle{
 
 /* media */
 
-@media () {
+@media (max-width:800px) {
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+     #toggle-mode{
+
+        border: 1px solid red;
+    }
+    #timer span {
+        font-size:7rem;
+    }
+    #controls {
+        gap:  1rem;
+    }
+    #controls button {
+        margin-top: -2rem;
+        font-size: 4rem;
+        
+    }
     
+    .card-icon {
+
+    }
+
 }

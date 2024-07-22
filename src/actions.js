@@ -52,6 +52,7 @@ export function turnDown(){
 let currentSom = null;
 
 export function forestAudio(){
+    
     if(currentSom === 'forest'){
         sounds.forestAudio.pause();
         currentSom = null;
