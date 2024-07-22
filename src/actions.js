@@ -48,16 +48,67 @@ export function turnDown(){
     sounds.buttonPressAudio.play()
 }
 
+
+let currentSom = null;
+
 export function forestAudio(){
-    stopSounds()
-   sounds.forestAudio.play()
-   sounds.forestAudio.loop = true
+    if(currentSom === 'forest'){
+        sounds.forestAudio.pause();
+        currentSom = null;
+        console.log('som pausado')
+    } else {
+        stopSounds()
+        sounds.forestAudio.play()
+        sounds.forestAudio.loop = true
+        currentSom = 'forest'
+        console.log('start song florest')
+    }
+
 }
 
 export function cloudRainAudio(){
-    stopSounds()
-    sounds.cloudRainAudio.play()
-    sounds.forestAudio.loop = true
+    if(currentSom === 'raining'){
+        sounds.cloudRainAudio.pause()
+        currentSom = null
+        console.log('stop rain')
+    } else {
+        stopSounds()
+        sounds.cloudRainAudio.play()
+        sounds.cloudRainAudio.loop = true
+        currentSom = 'raining'
+        console.log('start song rain')
+    }
+}
+
+
+
+export function shopAudio(){
+    if (currentSom === 'shopCoffe') {
+        sounds.shopAudio.pause();
+        currentSom = null;
+        console.log('stop song shop-Coffe');
+    } else {
+        stopSounds();
+        sounds.shopAudio.play();
+        sounds.shopAudio.loop = true;
+        currentSom = 'shopCoffe';
+        console.log('start song shop-Coffe');
+    }
+}
+
+export function fireSom(){
+    if(currentSom === 'fireplace'){
+        sounds.fireSom.pause()
+        currentSom = null
+        console.log('start song fire')
+    } else {
+        stopSounds()
+        sounds.fireSom.play()
+        sounds.fireSom.loop = true
+        currentSom = 'fireplace'
+        console.log('stop song fire')
+    }
+
 }
 
 function stopSounds() {
@@ -67,4 +118,6 @@ function stopSounds() {
             sounds[sound].currentTime = 0;
         }
     }
+    currentSom = null
 }
+

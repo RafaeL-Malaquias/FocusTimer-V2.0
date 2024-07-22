@@ -16,3 +16,5 @@ export function registerControls() {
 
 el.forest.addEventListener('click', actions.forestAudio);
 el.raining.addEventListener('click', actions.cloudRainAudio);
+el.shopCoffe.addEventListener('click', actions.shopAudio);
+el.fireplace.addEventListener('click', actions.fireSom);
