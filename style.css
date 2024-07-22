@@ -162,25 +162,27 @@ html:not(.running) .ph-pause-circle{
     #content{
         display: flex;
         flex-direction: column;
+        gap: 2rem;
     }
      #toggle-mode{
-
+        font-size: 2rem;
+        right: 1.3rem;
+        top: 2rem;
         border: 1px solid red;
     }
     #timer span {
-        font-size:7rem;
+        font-size: 6rem;
     }
     #controls {
         gap:  1rem;
     }
     #controls button {
         margin-top: -2rem;
-        font-size: 4rem;
+        font-size: 3rem;
         
     }
     
     .card-icon {
-
     }
 
 }
