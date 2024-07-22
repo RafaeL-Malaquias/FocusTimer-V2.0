@@ -4,3 +4,4 @@ export const seconds = document.getElementById('seconds')
 
 
 export const forest = document.getElementById('florestaAudio')
+export const raining = document.getElementById('cloudRain')

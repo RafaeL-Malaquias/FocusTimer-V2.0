@@ -49,6 +49,22 @@ export function turnDown(){
 }
 
 export function forestAudio(){
+    stopSounds()
    sounds.forestAudio.play()
    sounds.forestAudio.loop = true
+}
+
+export function cloudRainAudio(){
+    stopSounds()
+    sounds.cloudRainAudio.play()
+    sounds.forestAudio.loop = true
+}
+
+function stopSounds() {
+    for (let sound in sounds ) {
+        if(sounds[sound] instanceof Audio) {
+            sounds[sound].pause()
+            sounds[sound].currentTime = 0;
+        }
+    }
 }

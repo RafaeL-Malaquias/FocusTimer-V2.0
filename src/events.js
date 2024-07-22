@@ -15,3 +15,4 @@ export function registerControls() {
 }
 
 el.forest.addEventListener('click', actions.forestAudio);
+el.raining.addEventListener('click', actions.cloudRainAudio);
