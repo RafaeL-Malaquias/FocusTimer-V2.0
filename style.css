@@ -158,7 +158,7 @@ html:not(.running) .ph-pause-circle{
 
 /* media */
 
-@media (max-width:800px) {
+@media (max-width:1010px) {
     #content{
         display: flex;
         flex-direction: column;
@@ -168,7 +168,6 @@ html:not(.running) .ph-pause-circle{
         font-size: 2rem;
         right: 1.3rem;
         top: 2rem;
-        border: 1px solid red;
     }
     #timer span {
         font-size: 6rem;
@@ -181,8 +180,20 @@ html:not(.running) .ph-pause-circle{
         font-size: 3rem;
         
     }
-    
-    .card-icon {
+    .content-icons{
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        justify-content: center;
+        gap: 2rem;
     }
-
+    .content-icons .card-icon button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 105px ;
+    }
+    .content-icons .card-icon img {
+        height: 45px;
+    }
 }
