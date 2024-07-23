@@ -20,10 +20,26 @@ el.shopCoffe.addEventListener('click', actions.shopAudio);
 el.fireplace.addEventListener('click', actions.fireSom);
 
 
-/* */
+/* bg button */
+
+const allElements = [el.forest, el.raining, el.shopCoffe, el.fireplace];
+
+const bgBtnEvent = (element, allElements) => {
+   element.addEventListener('click', (event) =>{
+
+    allElements.forEach(el => el.classList.remove('btnON'))
+
+    element.classList.toggle('btnON')
+
+  })
+}
+
+allElements.forEach(element => bgBtnEvent(element, allElements));
 
 
 
+/*
+#     ---         #
  el.forest.addEventListener('click', (event) => {
     el.forest.classList.toggle('btnON')
   })
@@ -35,3 +51,7 @@ el.fireplace.addEventListener('click', actions.fireSom);
   el.shopCoffe.addEventListener('click', (event) => {
     el.shopCoffe.classList.toggle('btnON')
   })
+
+  el.fireplace.addEventListener('click', (event) => {
+    el.fireplace.classList.toggle('btnON')
+  })*/
