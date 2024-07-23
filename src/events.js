@@ -32,12 +32,9 @@ const bgBtnEvent = (element, allElements) => {
     }else {
 
       allElements.forEach(el => el.classList.remove('btnON'))
-
+      
       element.classList.toggle('btnON')
     }
-
-
-
   })
 }
 
