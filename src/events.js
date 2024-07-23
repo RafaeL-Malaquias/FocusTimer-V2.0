@@ -23,9 +23,15 @@ el.fireplace.addEventListener('click', actions.fireSom);
 /* */
 
 
-const bttnON = document.getElementById('botaON')
 
  el.forest.addEventListener('click', (event) => {
     el.forest.classList.toggle('btnON')
   })
+
+  el.raining.addEventListener('click', (event) => {
+    el.raining.classList.toggle('btnON')
+  })
   
+  el.shopCoffe.addEventListener('click', (event) => {
+    el.shopCoffe.classList.toggle('btnON')
+  })
