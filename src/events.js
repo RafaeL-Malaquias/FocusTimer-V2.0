@@ -26,10 +26,17 @@ const allElements = [el.forest, el.raining, el.shopCoffe, el.fireplace];
 
 const bgBtnEvent = (element, allElements) => {
    element.addEventListener('click', (event) =>{
+    /* */
+    if(element.classList.contains('btnON')){
+      element.classList.remove('btnON')
+    }else {
 
-    allElements.forEach(el => el.classList.remove('btnON'))
+      allElements.forEach(el => el.classList.remove('btnON'))
 
-    element.classList.toggle('btnON')
+      element.classList.toggle('btnON')
+    }
+
+
 
   })
 }
