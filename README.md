@@ -12,36 +12,38 @@
 </p>
 
 <p align="center">
-    Desafio - Focus Timer
+    Challenge - Focus Timer
 </p>
 
 <p align="center">
-    <a href="https://rafael-malaquias.github.io/FocusTimer-V2.0/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="https://rafael-malaquias.github.io/FocusTimer-V2.0/">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="https://www.figma.com/design/ntBWn0cZ1V69xLy1UR7DXX/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0-1&t=4OISzfITxH0alyXf-0">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#memo-licença">Licença</a>
+    <a href="#memo-licença">License</a>
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
-- HTML - CSS - JavaScript
+- HTML
+- CSS 
+- JavaScript
 - Git e Github
 
-## 💻 Projeto
-Página de Focus Timer. 
-<br> 
-Para este projeto, crie uma página de  Focus timer - Pomodoro para servir como instrução para maximizar sua produtividade usando a técnica Pomodoro!
+## 💻 Project
+Focus Timer Page. 
+<br>
+For this project, create a Focus Timer - Pomodoro page to serve as a guide to maximize your productivity using the Pomodoro technique!
 
-[Link](https://rafael-malaquias.github.io/FocusTimer-V2.0/) - Para visualizar o projeto.
+[Link](https://rafael-malaquias.github.io/FocusTimer-V2.0/) - To view the project.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/ntBWn0cZ1V69xLy1UR7DXX/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0-1&t=4OISzfITxH0alyXf-0).
+ You can view the layout of the project through [THIS LINK.](https://www.figma.com/design/ntBWn0cZ1V69xLy1UR7DXX/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0-1&t=4OISzfITxH0alyXf-0).
 
-##  📝 Licença
+##  📝 License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ---
 
