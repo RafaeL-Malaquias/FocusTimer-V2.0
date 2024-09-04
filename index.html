@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Temporizador estilo pomodoro">
+    <meta name="description" content="Pomodoro style timer">
     <title>Focus Timer V2 - Pomodoro</title>
     <link rel="stylesheet" href="style.css">
    
@@ -13,7 +13,7 @@
 <body>
     <div class="box-toggle-mode">
         <button id="toggle-mode">
-            <span class="sr-only">Light Mode Ativado</span>
+            <span class="sr-only">Light Mode Enabled</span>
             <i class="ph-bold ph-sun"></i>
             <i class="ph-bold ph-moon"></i>
         </button>
@@ -31,28 +31,28 @@
             <button 
             data-action="toggleRunning" 
             class="ph ph-play-circle">
-                <span class="sr-only">Iniciar contador</span>
+                <span class="sr-only">Star</span>
             </button>
             <button
             data-action="toggleRunning"
             class="ph ph-pause-circle">
-                <span class="sr-only secundary">Pausar contador</span>
+                <span class="sr-only secundary">Pause</span>
             </button>
             <button
             data-action="reset"
             class="ph ph-stop-circle ">
-                <span class="sr-only">Reiniciar contador</span>
+                <span class="sr-only">Restart</span>
             </button>
 
             <button
             data-action="turnUp"
             class="ph ph-plus-circle">
-                <span class="sr-only">Aumentar Volume</span>
+                <span class="sr-only">Increase Volume</span>
             </button>
             <button
             data-action="turnDown"
             class="ph ph-minus-circle">
-                <span class="sr-only">Diminuir o Volume</span>
+                <span class="sr-only">Decrease Volume</span>
             </button>
         </section>
     </div>
@@ -82,6 +82,5 @@
         </div>
         
 </div>
-
 </body>
 </html>
